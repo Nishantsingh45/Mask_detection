@@ -1,0 +1,17 @@
+This Project is of Low power mask detecting device using Tiny Ml .
+
+Dataset have been taken from Kaggle .https://www.kaggle.com/omkargurav/face-mask-dataset
+
+##Hardware Used
+1. Arduino Nano Ble Sense 
+2. OV7670 CAMERA 
+3. Wires 
+
+##Software Used
+1. Tensorflow 
+2. Google Colab
+3. arduino IDE
+
+At first we will train the model over cloud and then convert the model into tflite format to deploy it to hardware . But Arduino nano dont understand Python so we need to convert it to buffer file 
+So we will convert the model into c buffer and also quantize rhe model to reduce the size of model . 
+After this we will use this file in our Arduino to run the model on hardware .
