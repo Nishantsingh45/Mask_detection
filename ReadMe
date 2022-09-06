@@ -2,6 +2,7 @@ This Project is of Low power mask detecting device using Tiny Ml .
 
 Dataset have been taken from Kaggle .https://www.kaggle.com/omkargurav/face-mask-dataset
 The final working demop of project can be seen here https://youtu.be/ujojaEP9YnU.
+Code for the Machine learning model . https://www.kaggle.com/code/nishantsingh45/face-mask-detection-for-tiny-ml
 
 ##Hardware Used
 1. Arduino Nano Ble Sense 
